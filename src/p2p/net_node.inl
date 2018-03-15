@@ -267,6 +267,7 @@ namespace nodetool
   bool node_server<t_payload_net_handler>::init(const boost::program_options::variables_map& vm)
   {
     ADD_HARDCODED_SEED_NODE("192.168.0.8:18667");
+	ADD_HARDCODED_SEED_NODE("192.168.0.8:18666");
 
     bool res = handle_command_line(vm);
     CHECK_AND_ASSERT_MES(res, false, "Failed to handle command line");
