@@ -1,4 +1,4 @@
-// Copyright (c) 2014, AEON, The Monero Project
+// Copyright (c) 2018, SiZ, Based on AEON  The Monero Project
 // 
 // All rights reserved.
 // 
